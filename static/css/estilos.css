@@ -3,3 +3,64 @@
 #formulario{
     width: 50%;
 }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('../images/Parque_Chipaque.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .textImg {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      border-radius: 8px;
+    }
+
+    .textLarge {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 5em;
+      margin: 0;
+    }
+
+    .textMedium {
+      font-size: 1.5em;
+      margin: 0;
+    }
+
+    .description {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      border-radius: 8px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 0.9em;
+    }
