@@ -23,7 +23,7 @@ SET row_security = off;
 -- Name: chipaque; Type: DATABASE; Schema: -; Owner: postgres
 --
 
-CREATE DATABASE chipaque WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE = 'Spanish_Colombia.1252';
+CREATE DATABASE chipaque WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'es_CO.UTF-8' LC_CTYPE = 'es_CO.UTF-8';
 
 
 ALTER DATABASE chipaque OWNER TO postgres;

@@ -1,0 +1,15 @@
+1. Instalar las dependencias
+- Inicialmente instalo: pip install Flask Flask-SQLAlchemy psycopg2-binary GeoAlchemy2 python-dotenv
+- Para crear el archivo de dependencias: pip freeze >requirements.txt
+- Para instalar las dependencias desde el archivo: pip install -r requirements.txt
+
+2. Crear un archvo .env en el cual defino los parámetros de conexión a la base de datos.
+3. Crear un archivo .gitignore en el cual defino las carpetas y archivos que debe ignorar git
+4. Crear una clase Db con los datos de conexión
+    Se usa la biblioteca load_dotenv para manejar credenciales "ocultas".
+5. Crear una clase Programa
+    - Agregar un método para cargar la configuración de la database
+    - Agregar un método para registrar las rutas
+    - Agregar un método para iniciar el programa
+6. Crear el modelo de la tabla predio
+    - También se puede primero crear el modelo y a partir de él generar la tabal
